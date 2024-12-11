@@ -1,0 +1,144 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+header {
+    background-color: #ff3f6c;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav .nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Search Section */
+.search-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #ff3f6c;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #e03558;
+}
+
+/* Restaurant Cards */
+.restaurant-list {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.restaurant-list h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.restaurants {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.restaurant-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.restaurant-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.restaurant-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #777;
+}
+
+.restaurant-card button {
+    padding: 10px 20px;
+    background-color: #ff3f6c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restaurant-card button:hover {
+    background-color: #e03558;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

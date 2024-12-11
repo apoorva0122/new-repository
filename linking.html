@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Zomato</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for restaurants, dishes, or cuisines...">
+            <button onclick="searchRestaurant()">Search</button>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section class="restaurant-list">
+        <h2>Featured Restaurants</h2>
+        <div class="restaurants">
+            <div class="restaurant-card">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-i/1a/19/66/d6/barbeque.jpg" alt="Restaurant 1">
+                <h3>Restaurant 1</h3>
+                <p>Delicious Italian Cuisine</p>
+                <button>Order Now</button>
+            </div>
+            <div class="restaurant-card">
+                <img src="https://t4.ftcdn.net/jpg/02/84/46/89/360_F_284468940_1bg6BwgOfjCnE3W0wkMVMVqddJgtMynE.jpg" alt="Restaurant 2">
+                <h3>Restaurant 2</h3>
+                <p>Authentic Indian Food</p>
+                <button>Order Now</button>
+            </div>
+            <div class="restaurant-card">
+                <img src="https://media.istockphoto.com/id/483120255/photo/asian-oranage-chicken-with-green-onions.jpg?s=612x612&w=0&k=20&c=0T_g_J5OSnmCei1Slgr1128wzAhzceRvLjd94R3gkgs=" alt="Restaurant 3">
+                <h3>Restaurant 3</h3>
+                <p>Chinese and Asian Dishes</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Zomato Clone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
